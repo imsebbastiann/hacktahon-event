@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0 60px;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 800;
+  padding-top: 30px;
+  padding-left: 61px;
+}
+
+.menuItems {
+  display: flex;
+  max-width: 900px;
+  margin-right: 11px;
+}
+
+.menuItems p {
+  margin-right: 70px;
+  color:  #5e5e5e;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: -60px;
+}
+
+.menuItems p:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  color: #262DD4
+}

@@ -67,6 +67,10 @@
     justify-content: flex-start;
 }
 
+.event-page-body-category .flex-container .category{
+    margin-right: 10px;
+}
+
 .event-page-body-right{
     width: 40%;
 }
@@ -125,6 +129,7 @@
 
 .event-list{
     width: 100%;
+    padding: 60px;
 }
 
 .event-container{
@@ -144,11 +149,23 @@
 }
 
 .event-list a{
-    width: 100%;
+    width: 80%;
+    margin-left: 35px;
+    margin-bottom: 35px;
+    
+   
 }
 
 .event-list a p{
     text-overflow: ellipsis;
+}
+
+.event-header{
+    margin-top: 20px;
+}
+
+.event-header h2{
+    margin-bottom: 5px;
 }
 
 .event .event-image{
@@ -163,6 +180,43 @@
 .grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    gap: 50px;
     margin-top: 30px;
+}
+
+.event-actions{
+    padding: 60px;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 30px;
+}
+
+
+.event-actions .flex-container{
+    justify-content: space-between;
+}
+
+.event-actions .flex-container label{
+    display: block;
+}
+.event-actions .flex-container select{
+    margin-right: 60px;
+    margin-top: 10px;
+
+    border: 2px solid #262DD4 ;
+    padding: 10px;
+
+    width: 300px;
+  
+    border-radius: 10px;
+
+     
+    font-size: 16px;
+    line-height: 49px;
+
+    color: #262DD4 ;
+}
+
+.event-actions .flex-container select:last-child{
+    margin-right: 20px;
 }
