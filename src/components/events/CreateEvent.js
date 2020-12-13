@@ -38,21 +38,41 @@ function CreateEvent(props){
                     <input type="text" onChange = {handleChange} id='organizator'/>
                 </div>
 
+                <div className='input-field'>
+                    <label htmlFor='organizator'> Locatie </label>
+                    <input type="text" onChange = {handleChange} id='locatie'/>
+                </div>
 
                 <div className='input-field'>
-                    <label htmlFor='data'> Data si ora </label>
+                    <label htmlFor='organizator'> Cateogrii </label>
+                    <input type="text" onChange = {handleChange} id='categorii'/>
+                </div>
+
+                <div className='input-field'>
+                    <label htmlFor='data'> Data </label>
                     <input type="date" onChange={handleChange} id='data' />
                 </div>
 
                 <div className='input-field'>
-                    <label htmlFor='descriere'> Descrere </label>
+                    <label htmlFor='descriere'> Descirere </label>
                     <textarea id='descriere' onChange={handleChange}></textarea>
                 </div>
 
                 <div className='input-field'>
-                    <label htmlFor='descriere'> File </label>
-                    <input type='file' id='image' onChange={handleChange} />
+                    <label htmlFor='banner'> Banner link </label>
+                    <input type="text" onChange = {handleChange} id='banner'/>
                 </div>
+
+                <div className='input-field'>
+                    <label htmlFor='banner'> Link inscriere </label>
+                    <input type="text" onChange = {handleChange} id='join'/>
+                </div>
+
+                <div className='input-field'>
+                    <label htmlFor='banner'> Contact </label>
+                    <input type="text" onChange = {handleChange} id='email'/>
+                </div>
+
 
                 <input type='submit' />
             </form>

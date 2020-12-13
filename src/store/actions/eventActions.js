@@ -5,13 +5,12 @@ export const createEvent = (event) => {
         
         // async call to db
         const firestore = getFirestore()
-        const firebaseStorage = getFirebase().storage().ref()
+        const slug = event.nume.toLowerCase().replace(/\s/g, '-')
 
-        console.log(firebaseStorage)
 
         firestore.collection('events').add({
             ...event,
-            createdAt: new Date()
+            slug: slug
         
         }).then(() => {        
             dispatch({
