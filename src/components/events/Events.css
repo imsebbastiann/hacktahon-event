@@ -1,0 +1,168 @@
+.event-page-header-image{
+    height: 450px;
+    width: 100%;
+}
+
+.event-page-header h1{
+    font-size: 40px;
+}
+
+.event-page-header {
+    margin-bottom: 60px;
+}
+
+.wrapper{
+    position: relative;
+}
+
+.container{
+    position: relative;
+}
+
+.page-container{
+    position: absolute;
+    background-color: #fff;
+    top: 200px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 60px;
+    width: 100%;
+    left: 10%;
+}
+
+.page-container .flex-container{
+    justify-content: space-between;
+}
+
+.event-page-body{
+    width: 50%;
+}
+
+.event-page-body-title{
+    margin-bottom: 30px;
+}
+
+.event-page-body-title p{
+    color: #5c5c5c;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.event-page-body-description{
+    margin-top: 30px;
+}
+
+.event-page-body-description p{
+    max-width: 100%;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.event-page-body-category h3{
+    margin-bottom: 10px;
+}
+
+.event-page-body-category .flex-container{
+    justify-content: flex-start;
+}
+
+.event-page-body-right{
+    width: 40%;
+}
+
+.event-page-body-footer{
+    margin-top: 30px;
+}
+
+.event-page-body-footer button{
+    padding: 15px;
+    outline: none;
+    border: none;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #fff;
+    border:2px solid #262DD4;
+    font-size: 14px;
+    color: #262DD4;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.event-page-body-title{
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 10px;
+}
+
+
+.event-page-body-footer button:hover{
+    background-color:#262DD4;
+    color: #fff;
+    transition: background ease-in-out 0.8ms;
+}
+
+
+.event-page-body-contact{
+    margin-top: 38px;
+}
+
+.event-page-body-contact button{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    border:2px solid #ccc;
+    font-size: 14px;
+    color: #ccc;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.event-list{
+    width: 100%;
+}
+
+.event-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 30px;
+
+}
+
+.event-list .flex-container{
+    justify-content: space-around;
+}
+
+.event-image{
+    height: 200px;
+}
+
+.event-list a{
+    width: 100%;
+}
+
+.event-list a p{
+    text-overflow: ellipsis;
+}
+
+.event .event-image{
+    width: 100%;
+}
+
+.similar-events{
+    margin-top: 60px;
+    
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+}
