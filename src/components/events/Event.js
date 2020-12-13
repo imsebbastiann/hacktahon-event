@@ -65,7 +65,7 @@ function Event(props){
                             
 
                             <div className='event-page-body-category'>
-                                <h3> Domenii </h3>
+                                <h3> Categorii </h3>
                                 <div className='flex-container'>
 
                                     {event.categorii && event.categorii.map((categorie) => {
